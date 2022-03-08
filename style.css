@@ -12,7 +12,7 @@ body {
     font-size: 1.4em;
     background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/413150/capsule_616x353.jpg?t=1608624324);
     background-size: cover;
-    /* opacity: 90%; */
+    opacity: 95%;
 }
 
 .homeFullPage {
@@ -52,6 +52,13 @@ body {
     font-family: inherit;
     font-size: inherit;
     margin: 0;
+}
+
+.dropdown .dropbutton:hover span {
+    display: none
+}
+.dropdown .dropbutton:hover:after {
+    content:"Marriage Candidates 𝅉";
 }
 
 /* Dropdown content (hidden by default) */
@@ -167,6 +174,9 @@ left to right, top to bottom*/
     color: black;
     text-decoration: none;
 }
+.InfoBox a:hover {
+    color: white;
+}
 
 /*Abigail's Page */
 .AbigailLoveInterestBox {
@@ -189,7 +199,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .AbigailMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .AbigailMarriageCandidates div {
     display: flex;
@@ -291,7 +301,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .AlexMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .AlexMarriageCandidates div {
     display: flex;
@@ -385,7 +395,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .LeahMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .LeahMarriageCandidates div {
     display: flex;
@@ -481,7 +491,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .ShaneMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .ShaneMarriageCandidates div {
     display: flex;
@@ -576,7 +586,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .SamMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .SamMarriageCandidates div {
     display: flex;
@@ -671,7 +681,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .SebastianMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .SebastianMarriageCandidates div {
     display: flex;
@@ -766,7 +776,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .HaleyMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .HaleyMarriageCandidates div {
     display: flex;
@@ -860,7 +870,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .EmilyMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .EmilyMarriageCandidates div {
     display: flex;
@@ -954,7 +964,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .MaruMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .MaruMarriageCandidates div {
     display: flex;
@@ -1048,7 +1058,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .PennyMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .PennyMarriageCandidates div {
     display: flex;
@@ -1142,7 +1152,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .ElliottMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .ElliottMarriageCandidates div {
     display: flex;
@@ -1236,7 +1246,7 @@ left to right, top to bottom*/
     padding-left: 10%;
 }
 .HarveyMarriageCandidates img {
-    width: 50px;
+    width: 70px;
 }
 .HarveyMarriageCandidates div {
     display: flex;
