@@ -934,3 +934,191 @@ left to right, top to bottom*/
 .EmilyGalleryPics img {
     width: 25%;
 }
+
+/*Maru's Page */
+.MaruLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: IndianRed;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.MaruMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.MaruMarriageCandidates img {
+    width: 50px;
+}
+.MaruMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.MaruMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.MaruBox {
+    display: flex;
+    flex-direction: column;
+    background-color: IndianRed;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.MaruAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid Indigo;
+    width: 45%;
+    text-align: center;
+}
+
+.MaruAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.MaruAvatorImg img {
+    width: 60%;
+}
+
+.AboutMaru {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: Indigo;
+}
+
+.BirthdayMaru, .FamilyMaru, .FriendMaru {
+    display: flex;
+    border: 1px solid Indigo;
+}
+
+.BirthdayMaruHead, .FamilyMaruHead, .FriendMaruHead {
+    display: inline-flex;
+    background-color: Indigo;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayMaruDate, .FamilyMaruInfo, .FriendMaruInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.MaruGalleryPics {
+    display: flex;
+}
+
+.MaruGalleryPics img {
+    width: 25%;
+}
+
+/*Penny's Page */
+.PennyLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: Orange;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.PennyMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.PennyMarriageCandidates img {
+    width: 50px;
+}
+.PennyMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.PennyMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.PennyBox {
+    display: flex;
+    flex-direction: column;
+    background-color: Orange;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.PennyAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid Yellow;
+    width: 45%;
+    text-align: center;
+}
+
+.PennyAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.PennyAvatorImg img {
+    width: 60%;
+}
+
+.AboutPenny {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: Yellow;
+}
+
+.BirthdayPenny, .FamilyPenny, .FriendPenny {
+    display: flex;
+    border: 1px solid Yellow;
+}
+
+.BirthdayPennyHead, .FamilyPennyHead, .FriendPennyHead {
+    display: inline-flex;
+    background-color: Yellow;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayPennyDate, .FamilyPennyInfo, .FriendPennyInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.PennyGalleryPics {
+    display: flex;
+}
+
+.PennyGalleryPics img {
+    width: 25%;
+}
