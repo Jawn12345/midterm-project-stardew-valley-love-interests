@@ -75,7 +75,7 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdownContent a:hover {
-    /* background-color: #ddd; */
+    background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
@@ -92,16 +92,20 @@ body {
     text-align: left;
 }
 
+.MainPage {
+    display: flex;
+}
+
 .MainPageBox {
     display: flex;
     background: lightgreen;
     padding: 10px;
     flex-direction: column;
     justify-content: center;
-    /* width: 80%; */
+    width: 80%;
     border: 2px solid mediumseagreen;
     opacity: 90%;
-    margin-left: 15%;
+    /* margin-left: 15%;*/
     margin-right: 15%;
 }
 
@@ -111,11 +115,23 @@ body {
     background: black;
     margin-top: 2%;
     color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 0.9em;
+}
+.EndingBox a {
+    text-decoration: none;
+    color: white;
 }
 
 .MarriageCandidates {
     display: flex;
     flex-wrap: wrap;
+}
+
+.MarriageCandidates a {
+    text-decoration: none;
+    text-align: center;
 }
 
 /* Lays out the marriage candidates in the home page from
@@ -135,10 +151,21 @@ left to right, top to bottom*/
 }
 
 .InfoBox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: 10%;
     height: 10%;
-    background-color: gray;
-    margin-right: auto;
+    background-color: lightgray;
+    margin-right: 5%;
+    font-size: 0.9em;
+    opacity: 90%;
+}
+.InfoBox a {
+    color: black;
+    text-decoration: none;
 }
 
 /*Abigail's Page */
@@ -167,7 +194,7 @@ left to right, top to bottom*/
 .AbigailMarriageCandidates div {
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 33%;
 }
 .AbigailMarriageCandidates a {
@@ -240,5 +267,481 @@ left to right, top to bottom*/
 }
 
 .AbigailGalleryPics img {
+    width: 25%;
+}
+
+
+
+/*Alex's Page */
+.AlexLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: #6bb300;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.AlexMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.AlexMarriageCandidates img {
+    width: 50px;
+}
+.AlexMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.AlexMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.AlexBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #6bb300;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.AlexAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid SaddleBrown;
+    width: 45%;
+    text-align: center;
+}
+
+.AlexAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.AlexAvatorImg img {
+    width: 60%;
+}
+
+.AboutAlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: SaddleBrown;
+}
+
+.BirthdayAlex, .FamilyAlex, .FriendAlex {
+    display: flex;
+    border: 1px solid SaddleBrown;
+}
+
+.BirthdayAlexHead, .FamilyAlexHead, .FriendAlexHead {
+    display: inline-flex;
+    background-color: SaddleBrown;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayAlexDate, .FamilyAlexInfo, .FriendAlexInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.AlexGalleryPics {
+    display: flex;
+}
+
+.AlexGalleryPics img {
+    width: 25%;
+}
+
+/*Leah's Page */
+.LeahLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: DarkOrange;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.LeahMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.LeahMarriageCandidates img {
+    width: 50px;
+}
+.LeahMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.LeahMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.LeahBox {
+    display: flex;
+    flex-direction: column;
+    background-color: DarkOrange;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.LeahAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid SaddleBrown;
+    width: 45%;
+    text-align: center;
+}
+
+.LeahAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.LeahAvatorImg img {
+    width: 60%;
+}
+
+.AboutLeah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: SaddleBrown;
+}
+
+.BirthdayLeah, .FamilyLeah, .FriendLeah {
+    display: flex;
+    border: 1px solid SaddleBrown;
+}
+
+.BirthdayLeahHead, .FamilyLeahHead, .FriendLeahHead {
+    display: inline-flex;
+    background-color: SaddleBrown;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayLeahDate, .FamilyLeahInfo, .FriendLeahInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.LeahGalleryPics {
+    display: flex;
+}
+
+.LeahGalleryPics img {
+    width: 25%;
+}
+
+
+
+/*Shane's Page */
+.ShaneLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: #660066;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.ShaneMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.ShaneMarriageCandidates img {
+    width: 50px;
+}
+.ShaneMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.ShaneMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.ShaneBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #660066;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.ShaneAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid MediumPurple;
+    width: 45%;
+    text-align: center;
+}
+
+.ShaneAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.ShaneAvatorImg img {
+    width: 60%;
+}
+
+.AboutShane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: MediumPurple;
+}
+
+.BirthdayShane, .FamilyShane, .FriendShane {
+    display: flex;
+    border: 1px solid MediumPurple;
+}
+
+.BirthdayShaneHead, .FamilyShaneHead, .FriendShaneHead {
+    display: inline-flex;
+    background-color: MediumPurple;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayShaneDate, .FamilyShaneInfo, .FriendShaneInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.ShaneGalleryPics {
+    display: flex;
+}
+
+.ShaneGalleryPics img {
+    width: 25%;
+}
+
+
+/*Sam's Page */
+.SamLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: Yellow;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.SamMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.SamMarriageCandidates img {
+    width: 50px;
+}
+.SamMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.SamMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.SamBox {
+    display: flex;
+    flex-direction: column;
+    background-color: Yellow;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.SamAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid LightSkyBlue;
+    width: 45%;
+    text-align: center;
+}
+
+.SamAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.SamAvatorImg img {
+    width: 60%;
+}
+
+.AboutSam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: LightSkyBlue;
+}
+
+.BirthdaySam, .FamilySam, .FriendSam {
+    display: flex;
+    border: 1px solid LightSkyBlue;
+}
+
+.BirthdaySamHead, .FamilySamHead, .FriendSamHead {
+    display: inline-flex;
+    background-color: LightSkyBlue;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdaySamDate, .FamilySamInfo, .FriendSamInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.SamGalleryPics {
+    display: flex;
+}
+
+.SamGalleryPics img {
+    width: 25%;
+}
+
+
+/*Sebastian's Page */
+.SebastianLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: Indigo;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.SebastianMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.SebastianMarriageCandidates img {
+    width: 50px;
+}
+.SebastianMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.SebastianMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.SebastianBox {
+    display: flex;
+    flex-direction: column;
+    background-color: Indigo;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.SebastianAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid RebeccaPurple;
+    width: 45%;
+    text-align: center;
+}
+
+.SebastianAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.SebastianAvatorImg img {
+    width: 60%;
+}
+
+.AboutSebastian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: RebeccaPurple;
+}
+
+.BirthdaySebastian, .FamilySebastian, .FriendSebastian {
+    display: flex;
+    border: 1px solid RebeccaPurple;
+}
+
+.BirthdaySebastianHead, .FamilySebastianHead, .FriendSebastianHead {
+    display: inline-flex;
+    background-color: RebeccaPurple;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdaySebastianDate, .FamilySebastianInfo, .FriendSebastianInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.SebastianGalleryPics {
+    display: flex;
+}
+
+.SebastianGalleryPics img {
     width: 25%;
 }
