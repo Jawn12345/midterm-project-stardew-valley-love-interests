@@ -745,3 +745,192 @@ left to right, top to bottom*/
 .SebastianGalleryPics img {
     width: 25%;
 }
+
+
+/*Haley's Page */
+.HaleyLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: Pink;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.HaleyMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.HaleyMarriageCandidates img {
+    width: 50px;
+}
+.HaleyMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.HaleyMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.HaleyBox {
+    display: flex;
+    flex-direction: column;
+    background-color: Pink;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.HaleyAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid PaleVioletRed;
+    width: 45%;
+    text-align: center;
+}
+
+.HaleyAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.HaleyAvatorImg img {
+    width: 60%;
+}
+
+.AboutHaley {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: PaleVioletRed;
+}
+
+.BirthdayHaley, .FamilyHaley, .FriendHaley {
+    display: flex;
+    border: 1px solid PaleVioletRed;
+}
+
+.BirthdayHaleyHead, .FamilyHaleyHead, .FriendHaleyHead {
+    display: inline-flex;
+    background-color: PaleVioletRed;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayHaleyDate, .FamilyHaleyInfo, .FriendHaleyInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.HaleyGalleryPics {
+    display: flex;
+}
+
+.HaleyGalleryPics img {
+    width: 25%;
+}
+
+/*Emily's Page */
+.EmilyLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: Red;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.EmilyMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.EmilyMarriageCandidates img {
+    width: 50px;
+}
+.EmilyMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.EmilyMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.EmilyBox {
+    display: flex;
+    flex-direction: column;
+    background-color: Red;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.EmilyAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid Blue;
+    width: 45%;
+    text-align: center;
+}
+
+.EmilyAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.EmilyAvatorImg img {
+    width: 60%;
+}
+
+.AboutEmily {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: Blue;
+}
+
+.BirthdayEmily, .FamilyEmily, .FriendEmily {
+    display: flex;
+    border: 1px solid Blue;
+}
+
+.BirthdayEmilyHead, .FamilyEmilyHead, .FriendEmilyHead {
+    display: inline-flex;
+    background-color: Blue;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayEmilyDate, .FamilyEmilyInfo, .FriendEmilyInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.EmilyGalleryPics {
+    display: flex;
+}
+
+.EmilyGalleryPics img {
+    width: 25%;
+}
