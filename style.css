@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0px;
+    border: 0px;
+}
+
+.fullPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.MainPageBox {
+    display: flex;
+    background: lightgreen;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 80%; */
+    border: 2px solid mediumseagreen;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.LoveInterestBox {
+    display: flex;
+    background: lightgreen;
+}
+
+.EndingBox {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+}
+
+.MarriageCandidates {
+    display: flex;
+    flex-wrap: wrap;
+}
