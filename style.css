@@ -1122,3 +1122,97 @@ left to right, top to bottom*/
 .PennyGalleryPics img {
     width: 25%;
 }
+
+/*Elliott's Page */
+.ElliottLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: Maroon;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.ElliottMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.ElliottMarriageCandidates img {
+    width: 50px;
+}
+.ElliottMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.ElliottMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.ElliottBox {
+    display: flex;
+    flex-direction: column;
+    background-color: Maroon;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.ElliottAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid LimeGreen;
+    width: 45%;
+    text-align: center;
+}
+
+.ElliottAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.ElliottAvatorImg img {
+    width: 60%;
+}
+
+.AboutElliott {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: LimeGreen;
+}
+
+.BirthdayElliott, .FamilyElliott, .FriendElliott {
+    display: flex;
+    border: 1px solid LimeGreen;
+}
+
+.BirthdayElliottHead, .FamilyElliottHead, .FriendElliottHead {
+    display: inline-flex;
+    background-color: LimeGreen;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayElliottDate, .FamilyElliottInfo, .FriendElliottInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.ElliottGalleryPics {
+    display: flex;
+}
+
+.ElliottGalleryPics img {
+    width: 25%;
+}
