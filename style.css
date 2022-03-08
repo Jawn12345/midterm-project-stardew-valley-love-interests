@@ -1216,3 +1216,97 @@ left to right, top to bottom*/
 .ElliottGalleryPics img {
     width: 25%;
 }
+
+/*Harvey's Page */
+.HarveyLoveInterestBox {
+    padding: 10px;
+    padding-top: 0px;
+    width: 20%;
+    height: 20%;
+    background: Green;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.HarveyMarriageCandidates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 10%;
+}
+.HarveyMarriageCandidates img {
+    width: 50px;
+}
+.HarveyMarriageCandidates div {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+.HarveyMarriageCandidates a {
+    text-decoration: none;
+    color: white;
+}
+
+.HarveyBox {
+    display: flex;
+    flex-direction: column;
+    background-color: Green;
+    padding: 1%;
+    width: 60%;
+    height: auto;
+}
+
+.HarveyAvator {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid SaddleBrown;
+    width: 45%;
+    text-align: center;
+}
+
+.HarveyAvatorImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.HarveyAvatorImg img {
+    width: 60%;
+}
+
+.AboutHarvey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: SaddleBrown;
+}
+
+.BirthdayHarvey, .FamilyHarvey, .FriendHarvey {
+    display: flex;
+    border: 1px solid SaddleBrown;
+}
+
+.BirthdayHarveyHead, .FamilyHarveyHead, .FriendHarveyHead {
+    display: inline-flex;
+    background-color: SaddleBrown;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.BirthdayHarveyDate, .FamilyHarveyInfo, .FriendHarveyInfo {
+    text-align: left;
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.HarveyGalleryPics {
+    display: flex;
+}
+
+.HarveyGalleryPics img {
+    width: 25%;
+}
