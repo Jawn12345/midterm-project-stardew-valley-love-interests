@@ -9,7 +9,7 @@ body, html {
 
 body {
     font-family: 'VT323', monospace;
-    font-size: 1.4em;
+    font-size: 1.6em;
     background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/413150/capsule_616x353.jpg?t=1608624324);
     background-size: cover;
     opacity: 95%;
@@ -1276,7 +1276,7 @@ left to right, top to bottom*/
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 .HarveyMarriageCandidates img {
     width: 70px;
@@ -1355,4 +1355,27 @@ left to right, top to bottom*/
 
 .HarveyGalleryPics img {
     width: 25%;
+}
+
+.AbigailLoveInterestBox, .AlexLoveInterestBox
+,.ElliottLoveInterestBox, .EmilyLoveInterestBox
+,.HaleyLoveInterestBox, .HarveyLoveInterestBox
+,.LeahLoveInterestBox, .MaruLoveInterestBox
+,.PennyLoveInterestBox, .SamLoveInterestBox
+,.SebastianLoveInterestBox, .ShaneLoveInterestBox h2 {
+    text-align: center;
+}
+.AbigailMarriageCandidates
+,.AlexMarriageCandidates
+,.ElliottMarriageCandidates
+,.EmilyMarriageCandidates
+,.HaleyMarriageCandidates
+,.HarveyMarriageCandidates
+,.LeahMarriageCandidates
+,.MaruMarriageCandidates
+,.PennyMarriageCandidates
+,.SamMarriageCandidates
+,.SebastianMarriageCandidates
+,.ShaneMarriageCandidates {
+  padding-left: 15%;
 }
