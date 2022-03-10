@@ -211,6 +211,9 @@ left to right, top to bottom*/
     text-decoration: none;
     color: white;
 }
+.AbigailMarriageCandidates a:hover {
+    color: black;
+}
 
 .AbigailBox {
     display: flex;
@@ -312,6 +315,9 @@ left to right, top to bottom*/
     text-decoration: none;
     color: white;
 }
+.AlexMarriageCandidates a:hover {
+    color: black;
+}
 
 .AlexBox {
     display: flex;
@@ -405,6 +411,9 @@ left to right, top to bottom*/
 .LeahMarriageCandidates a {
     text-decoration: none;
     color: white;
+}
+.LeahMarriageCandidates a:hover {
+    color: black;
 }
 
 .LeahBox {
@@ -502,6 +511,9 @@ left to right, top to bottom*/
     text-decoration: none;
     color: white;
 }
+.ShaneMarriageCandidates a:hover {
+    color: black;
+}
 
 .ShaneBox {
     display: flex;
@@ -596,6 +608,9 @@ left to right, top to bottom*/
 .SamMarriageCandidates a {
     text-decoration: none;
     color: white;
+}
+.SamMarriageCandidates a:hover {
+    color: black;
 }
 
 .SamBox {
@@ -692,6 +707,9 @@ left to right, top to bottom*/
     text-decoration: none;
     color: white;
 }
+.SebastianMarriageCandidates a:hover {
+    color: black;
+}
 
 .SebastianBox {
     display: flex;
@@ -787,6 +805,9 @@ left to right, top to bottom*/
     text-decoration: none;
     color: white;
 }
+.HaleyMarriageCandidates a:hover {
+    color: black;
+}
 
 .HaleyBox {
     display: flex;
@@ -880,6 +901,9 @@ left to right, top to bottom*/
 .EmilyMarriageCandidates a {
     text-decoration: none;
     color: white;
+}
+.EmilyMarriageCandidates a:hover {
+    color: black;
 }
 
 .EmilyBox {
@@ -975,6 +999,9 @@ left to right, top to bottom*/
     text-decoration: none;
     color: white;
 }
+.MaruMarriageCandidates a:hover {
+    color: black;
+}
 
 .MaruBox {
     display: flex;
@@ -1068,6 +1095,9 @@ left to right, top to bottom*/
 .PennyMarriageCandidates a {
     text-decoration: none;
     color: white;
+}
+.PennyMarriageCandidates a:hover {
+    color: black;
 }
 
 .PennyBox {
@@ -1163,6 +1193,9 @@ left to right, top to bottom*/
     text-decoration: none;
     color: white;
 }
+.ElliottMarriageCandidates a:hover {
+    color: black;
+}
 
 .ElliottBox {
     display: flex;
@@ -1256,6 +1289,9 @@ left to right, top to bottom*/
 .HarveyMarriageCandidates a {
     text-decoration: none;
     color: white;
+}
+.HarveyMarriageCandidates a:hover {
+    color: black;
 }
 
 .HarveyBox {
